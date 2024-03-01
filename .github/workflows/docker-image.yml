@@ -18,4 +18,4 @@ jobs:
       run: |
         echo "${{ secrets.DOCKERPW }}" | docker login -u "aditya2khot" --password-stdin
         docker build -t aditya2khot/restaurant-order-frontend:v1 .
-        docker push aditya2khot/restaurant-order:v1
+        docker push aditya2khot/restaurant-order-frontend:v1
